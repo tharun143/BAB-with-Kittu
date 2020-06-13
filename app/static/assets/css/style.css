@@ -254,6 +254,26 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
+  background: #3b4ef8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 25px 10px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 600;
+  font-family: "Krub", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.get-started-btn:hover {
+  background: #e2e5fe;
+  color: #3b4ef8;
+}
+
+.get-started-btn1 {
+  margin-left: 25px;
   background: #e2e5fe;
   color: #3b4ef8;
   border-radius: 5px;
@@ -267,9 +287,17 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px;
 }
 
-.get-started-btn:hover {
+.get-started-btn1:hover {
   background: #3b4ef8;
   color: #fff;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 4vw;
 }
 
 @media (max-width: 768px) {
